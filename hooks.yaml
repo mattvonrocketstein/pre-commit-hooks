@@ -43,6 +43,26 @@
     entry: check-json
     language: python
     files: \.json$
+-   id: mix-escript
+    name: 'Elixir: mix escript.build'
+    entry: mix escript.build
+    language: system
+    files: \.(ex|exs)$
+-   id: mix-dogma
+    name: 'Elixir: mix dogma'
+    entry: mix dogma
+    language: system
+    files: \.(ex|exs)$
+-   id: mix-compile
+    name: 'Elixir: mix compile'
+    entry: mix compile
+    language: system
+    files: \.(ex|exs)$
+-   id: mix-test
+    name: 'Elixir: mix test'
+    entry: mix test
+    language: system
+    files: \.(ex|exs)$
 -   id: pretty-format-json
     name: Pretty format JSON
     description: This hook sets a standard for formatting JSON files.
